@@ -1,0 +1,33 @@
+.portfolio {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio > h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.portfolio__item {
+    background-color: rgb(159, 197, 231);
+    overflow: hidden;
+}
+
+.portfolio__img {
+    width: 510px;
+    transition: 
+        transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio__img:hover {
+    transform: scale(1.2);
+    opacity: 0.75;
+}

@@ -1,0 +1,18 @@
+header {
+    height: 30px;
+}
+header nav {
+    display: inline-block;
+    float: right;
+    height: auto;
+}
+header nav > a {
+    display: inline-block;
+    float: left;
+    color: black;
+    padding: 0 25px;
+    padding-top: 9px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
