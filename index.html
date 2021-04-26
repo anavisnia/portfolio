@@ -12,15 +12,15 @@
 <body>
     <!-- LINKS -->
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Links</a>
+        <nav id="section1">
+            <a class="navbar__link link-active" href="#section1">Home</a>
+            <a class="navbar__link" href="#section2">Projects</a>
+            <a class="navbar__link" href="#section3">Links</a>
         </nav>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero main__content">
         <div class="container">
             <div class="hero__info">
                 <h1>I am Ana Višnevskaja</h1>
@@ -39,7 +39,7 @@
     </section>
 
     <!-- PROJECTS SECTION -->
-    <section class="portfolio">
+    <section class="portfolio main__content" id="section2">
         <h2>Take A Look At Some Projects:</h2>
         <div class="portfolio__container">
             <a target="_blank" href="https://anavisnia.github.io/bit-3-sherlock-grid/" class="portfolio__item">
@@ -57,7 +57,7 @@
     </section>
 
     <!--  LINKS / FOOTER-->
-    <footer>
+    <footer class="main__content" id="section3">
         <h2>Stay In Touch</h2>
         <a href="mailto:ana.visnevskaja.08@gmail.com">Email: ana.visnevskaja.08@gmail.com</a>
         <div>
@@ -65,6 +65,7 @@
             <a target="_blank" href="https://github.com/anavisnia">GitHub</a>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
