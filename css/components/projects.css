@@ -1,0 +1,12 @@
+.portfolio {
+
+}
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio__img {
+    width: 500px;
+}
