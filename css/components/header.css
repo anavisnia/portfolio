@@ -47,3 +47,35 @@ nav > a.navbar__link:hover {
         border-bottom: 2px solid rgb(59, 206, 59);
     }
 }
+
+/* RESPONSIVE */
+/* phones */
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+    header {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    header > nav {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        height: 100%;
+    }
+
+    header nav > a {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        float: none;
+        margin: 0 0;
+        padding-top: 0px;
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    
+    nav > a.navbar__link:hover {
+        border-bottom: 2px solid rgb(59, 206, 59);
+    }
+}
