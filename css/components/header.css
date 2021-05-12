@@ -55,6 +55,7 @@ nav > a.navbar__link:hover {
         display: block;
         width: 100%;
         height: auto;
+        position: unset;
     }
 
     header > nav {
