@@ -61,3 +61,26 @@
         width: 100%;
     }
 }
+
+/* RESPONSIVE */
+/* phones */
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+    .portfolio {
+        width: 100%;
+        height: auto;
+    }
+    
+    .portfolio > h2 {
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .portfolio__container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+    
+    .portfolio__img {
+        width: 100%;
+    }
+}
