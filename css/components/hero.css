@@ -106,3 +106,59 @@ div.hero__img {
         padding: 120px 0 0px 20px;
     }
 }
+
+/* RESPONSIVE */
+/* phones */
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+    .hero {
+        width: 100%;
+        height: fit-content;
+        height: auto;
+    }
+    
+    .container {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0;
+    }
+    
+    div.hero__info {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+        text-align: left;
+        float: none;
+    }
+    
+    .hero__info > h1 {
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    
+    .hero__info > h2 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    
+    .hero__info > p {
+        font-size: 16px;
+        padding: 30px 0px;
+    }
+    
+    div.hero__img {
+        display: inline-block;
+        width: 100%;
+        float: none;
+        padding-bottom: 20px;
+    }
+    
+    .hero__img > img {
+        width: 100%;
+        padding: 10px 0 0px 0px;
+    }    
+}
