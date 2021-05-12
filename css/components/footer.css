@@ -42,3 +42,83 @@ footer > div > a {
 footer > div > a:hover {
     color: rgb(81, 172, 140);
 }
+
+/* RESPONSIVE */
+/* tablets */
+@media only screen and (min-device-width: 500px) and (max-device-width: 770px) {
+    footer {
+        background-color: lightgrey;
+        height: auto;
+    }
+    
+    footer > h2 {
+        font-weight: 400;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    
+    footer > a {
+        color: rgba(68, 68, 68, 0.767);
+        padding: 5px 0;
+        text-decoration: none;
+    }
+    
+    footer > a:hover {
+        color: rgb(81, 139, 172);
+    }
+    
+    footer > div > a {
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.767);
+        margin: 0 20px;
+        padding: 10px 0;
+    }
+    
+    footer > div > a:hover {
+        color: rgb(81, 139, 172);
+    }
+}
+
+/* RESPONSIVE */
+/* phones */
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+    footer {
+        height: auto;
+    }
+    
+    footer > h2 {
+        font-weight: 400;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    
+    footer > a {
+        color: rgba(68, 68, 68, 0.767);
+        padding: 5px 0;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    footer > a:hover {
+        color: rgb(81, 139, 172);
+    }
+
+    footer > div {
+        margin: 0px;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    footer > div > a {
+        display: inline-block;
+        width: 100%;
+        color: rgba(0, 0, 0, 0.767);
+        margin: 0px 0px;
+        padding: 10px 0;
+    }
+    
+    footer > div > a:hover {
+        color: rgb(81, 139, 172);
+    }
+}
