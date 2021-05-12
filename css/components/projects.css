@@ -31,3 +31,8 @@
     transform: scale(1.2);
     opacity: 0.75;
 }
+
+/* RESPONSIVE */
+/* tablets */
+@media only screen and (min-device-width: 500px) and (max-device-width: 770px) {
+}
