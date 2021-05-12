@@ -106,3 +106,9 @@ div.hero__img {
         padding: 120px 0 0px 20px;
     }
 }
+
+/* RESPONSIVE */
+/* phones */
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+    
+}
