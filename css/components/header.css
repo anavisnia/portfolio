@@ -29,4 +29,21 @@ nav > a.navbar__link:hover {
 /* RESPONSIVE */
 /* tablets */
 @media only screen and (min-device-width: 500px) and (max-device-width: 770px) {
+    header {
+        height: 40px;
+    }
+
+    header nav {
+        height: 100%;
+    }
+
+    header nav > a {
+        margin: 0;
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    
+    nav > a.navbar__link:hover {
+        border-bottom: 2px solid rgb(59, 206, 59);
+    }
 }
